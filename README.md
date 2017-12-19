@@ -1,27 +1,27 @@
 ﻿# ACM-OnlineJudge
 
-小学开始的OJ之路，现在因为某些原因没有上ACM，但是还是会做做OJ题目，就是纪念下这条不长不短的OJ之路吧。
+小学开始的OJ之路，现在因为某些原因没有上ACM，但是还是会做做OJ题目，大概就是纪念下这条OJ之路吧。
 
 ## SJTU Online Judge
 
-交大ACM的Online Judge的题目刷一刷。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
+交大ACM的Online Judge的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
 
-516030910552
+用户 516030910552
 
-## CodeVS USACO POJ Vijos
+## 其他OJ
 
-这些以前刷的都不管了，等哪天心血来潮再补上吧。
+一些以前刷的暂时都不管了，等哪天心血来潮再补上吧~
 
-- CodeVS yyyuyong119@gmail.com
+- YYHSOJ(since 2010，停止更新) 用户yyhsyy
 
-- USACO yyhsyy
+- Vijos(since 2012，停止更新) 用户1479773600
 
-- POJ yyhsyy
+- CodeVS(since 2013，更新完成) 用户yyong119
 
-- Vijos 1479773600
+- USACO(since 2013，更新中) 用户yyhsyy
 
-## UVa
+- POJ(since 2013，停止更新) 用户yyhsyy
 
-这是大二（现在）才开始刷的。有空上传代码。已经停止更新,一方面找不到提交的代码,一方面服务器太慢.
+- leetcode(since 2017，更新中) 用户yyong119
 
-sjtuMao
+- UVa（since 2017，停止更新) 用户sjtuMao
