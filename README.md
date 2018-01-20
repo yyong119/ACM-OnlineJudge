@@ -4,7 +4,7 @@
 
 ## SJTU Online Judge
 
-交大ACM的Online Judge的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
+交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge/">Online Judge</a>的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
 
 用户 516030910552
 
@@ -12,16 +12,16 @@
 
 一些以前刷的暂时都不管了，等哪天心血来潮再补上吧~
 
-- YYHSOJ(since 2010，停止更新) 用户yyhsyy
+- YYHSOJ(since 2010，停止更新) 用户yyhsyy <a href = "192.168.1.211">yyhsoj传送门(需要yyhs校园网)</a>
 
-- Vijos(since 2012，停止更新) 用户1479773600
+- Vijos(since 2012，停止更新) 用户1479773600 <a href = "https://www.vijos.org/">Vijos传送门</a>
 
-- CodeVS(since 2013，更新完成) 用户yyong119
+- CodeVS(since 2013，更新完成) 用户yyong119 <a href = "http://www.codevs.cn/">CodeVS传送门</a>
 
-- USACO(since 2013，更新中) 用户yyhsyy
+- USACO(since 2013，更新中) 用户yyhsyy <a href = "http://train.usaco.org/usacogate">USACO传送门</a>
 
-- POJ(since 2013，停止更新) 用户yyhsyy
+- POJ(since 2013，停止更新) 用户yyhsyy <a href = "http://poj.org/">POJ传送门</a>
 
-- leetcode(since 2017，更新中) 用户yyong119
+- leetcode(since 2017，更新中) 用户yyong119 <a href = "https://leetcode.com/">leetcode传送门</a>
 
-- UVa（since 2017，停止更新) 用户sjtuMao
+- UVa（since 2017，停止更新) 用户sjtuMao <a href = "https://uva.onlinejudge.org/">UVa传送门</a>
