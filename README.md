@@ -2,6 +2,8 @@
 
 小学开始的OJ之路，现在因为某些原因没有上ACM，但是还是会做做OJ题目，大概就是纪念下这条OJ之路吧。
 
+有些代码貌似有点问题，可以在issue里放着，我会尽快解决。
+
 ## SJTU Online Judge
 
 交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge/">Online Judge</a>的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
