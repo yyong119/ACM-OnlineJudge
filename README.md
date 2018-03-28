@@ -1,6 +1,6 @@
 ﻿# ACM-OnlineJudge
 
-小学开始的OJ之路，现在因为某些原因没有上ACM，但是还是会做做OJ题目，大概就是纪念下这条OJ之路吧。
+小学开始的OI之路，现在因为某些原因没有上ACM，但是还是会做做OJ题目，大概就是纪念下这条OJ之路吧。
 
 有些代码貌似有点问题，可以在issue里放着，我会尽快解决。
 
@@ -21,8 +21,9 @@
 - POJ(since 2013，停止更新) 用户yyhsyy <a href = "http://poj.org/">POJ传送门</a>
 - leetcode(since 2017，更新中) 用户yyong119 <a href = "https://leetcode.com/">leetcode传送门</a>
 - UVa（since 2017，停止更新) 用户sjtuMao <a href = "https://uva.onlinejudge.org/">UVa传送门</a>
+- BZOJ（大视野评测） 高中的各位北大爷们刷的，哪轮的上我这种渣渣呀≧ ﹏ ≦
 
-## 收藏技巧
+## 收藏
 
 #### 位运算(位运算操作效率较高)
 
