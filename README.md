@@ -6,9 +6,9 @@
 
 ## SJTU Online Judge
 
-交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge/">Online Judge</a>的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,看到了的话有空更新下.
+交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge/">Online Judge</a>的题目刷一刷~这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。貌似有些题目数据增强了,原来的可能已经过不了了,可以放issue里,看到了的话有空更新下.当然也欢迎pr~
 
-用户 516030910552
+用户 516030910552 yY0nG119
 
 ## 其他OJ
 
@@ -23,7 +23,7 @@
 - UVa（since 2017，停止更新) 用户sjtuMao <a href = "https://uva.onlinejudge.org/">UVa传送门</a>
 - BZOJ（大视野评测） 高中的各位北大爷们刷的，哪轮的上我这种渣渣呀≧ ﹏ ≦
 
-## 收藏
+## 一些东西
 
 #### 位运算(位运算操作效率较高)
 
