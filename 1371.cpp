@@ -1,57 +1,44 @@
-#include <iostream>
 #include <cstdio>
-#include <cstring>
-#include <cstdlib>
 using namespace std;
-const int MAX_P = 10001;
-struct node {
-	int l, r, key;
-}tree[MAX_P << 2];
+const int MAX_N = 100001;
+int tree[MAX_N << 2];
  
-void buildtree(int t, int l, int r) {
+void update(int t, int l, int r, int point) {
  
-	if (l == r) {
-		tree[t].l = tree[t].r = l;
-		return;
-	}
+	++tree[t];
+	if (l == r) return;
 	int mid = (l + r) >> 1;
-	buildtree(t << 1, l, mid);
-	buildtree(t << 1 | 1, mid + 1, r);
-	tree[t].l = l; tree[t].r = r;
+	if (point <= mid)
+        update(t << 1, l, mid, point);
+	else
+        update(t << 1 | 1, mid + 1, r, point);
 }
  
-void update(int t, int point) {
+int query(int t, int l, int r, int ql, int qr) {
  
-	tree[t].key++;
-	if (tree[t].l == tree[t].r) return;
-	int mid = (tree[t].l + tree[t].r) >> 1;
-	if (point <= mid) update(t << 1, point);
-	else update(t << 1 | 1, point);
-}
- 
-int query(int t, int l, int r) {
- 
-	if (tree[t].l == l && tree[t].r == r) return tree[t].key;
-	int mid = (tree[t].l + tree[t].r) >> 1;
-	if (r <= mid) return query(t << 1, l, r);
-	else if (l > mid) return query(t << 1 | 1, l, r);
-	else return query(t << 1, l, mid) + query(t << 1 | 1, mid + 1, r);
+	if (l == ql && r == qr) return tree[t];
+	int mid = (l + r) >> 1;
+	if (qr <= mid)
+        return query(t << 1, l, mid, ql, qr);
+	else if (ql > mid)
+        return query(t << 1 | 1, mid + 1, r, ql, qr);
+	else
+        return query(t << 1, l, mid, ql, mid) + query(t << 1 | 1, mid + 1, r, mid + 1, qr);
 }
  
 int main() {
  
 	int n, m;
 	scanf("%d%d", &n, &m);
-	buildtree(1, 1, MAX_P);
 	for (int i = 0; i < n; ++i) {
 		int tmp;
 		scanf("%d", &tmp);
-		update(1, tmp);
+		update(1, 1, n, tmp);
 	}
 	for (int i = 0; i < m; ++i) {
 		int tmpl, tmpr;
 		scanf("%d%d", &tmpl, &tmpr);
-		printf("%d\n", query(1, tmpl, tmpr));
+		printf("%d\n", query(1, 1, n, tmpl, tmpr));
 	}
 	return 0;
 }
