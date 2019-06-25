@@ -1,4 +1,6 @@
 *.exe
 *.pycache
+*.in
+*.out
 
 .vscode/*
