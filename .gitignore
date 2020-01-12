@@ -3,4 +3,6 @@
 *.in
 *.out
 
+test.cpp
+
 .vscode/*
