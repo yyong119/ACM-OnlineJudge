@@ -1,29 +1,23 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> hash;
-        for(int i = 0; i < 256; ++i) hash[s[i]] = -1;
-        vector<int> dp(s.length()+1);
-        vector<int> g(s.length()+1);
-        dp[0] = 1; hash[s[0]] = 0; g[0] = 1;
-        int start = 0;
-        for(int i = 1; i < s.length(); ++i) {
-            if(hash[s[i]] < start) {
-                g[i] = g[i-1] + 1;
+        int pos[200];
+        for (int i = 0; i < 200; ++i) pos[i] = -1;
+        int len = s.length();
+        int max_len = 0, cur_len = 0;
+        for (int i = 0; i < len; ++i) {
+            int id = s[i];
+            if (pos[id] == -1) {
+                ++cur_len;
+                pos[id] = i;
             }
             else {
-                start = hash[s[i]] + 1;
-                g[i] = i + 1 - start;
+                max_len = max(max_len, cur_len);
+                cur_len = min(cur_len + 1, i - pos[id]);
+                pos[id] = i;
             }
-            hash[s[i]] = i;
-            dp[i] = max(dp[i-1], g[i]);
         }
-        return dp[s.length()-1];
+        max_len = max(max_len, cur_len);
+        return max_len;
     }
 };
