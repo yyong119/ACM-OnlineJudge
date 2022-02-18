@@ -6,7 +6,7 @@
 
 ## SJTU Online Judge
 
-交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge/">Online Judge</a>的题目刷一刷。这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。
+交大ACM的<a href = "https://acm.sjtu.edu.cn/OnlineJudge-old/">Online Judge</a>的题目刷一刷。这也是现在主要的练习OJ。根目录下的文件都是交大OJ上刷过的题目代码。
 
 ### 可能碰到的问题
 
